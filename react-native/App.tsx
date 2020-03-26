@@ -15,7 +15,7 @@ declare var global: {HermesInternal: null | {}};
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" translucent />
       <SafeAreaView
         style={{flex: 1, width: '100%', backgroundColor: '#1e1e1e'}}>
         <Text style={{fontSize: 30, color: 'white', marginVertical: 5}}>
